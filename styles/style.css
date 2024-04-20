@@ -9,14 +9,14 @@
 }
 
 .header__links-list {
+  display: flex;
+  grid-area: links-list;
+  align-items: center;
+  gap: 32px;
   padding-top: 44px;
   padding-left: 25px;
-  grid-area: links-list;
-  display: flex;
-  gap: 32px;
-  align-items: center;
-  list-style: circle;
   font-size: 18px;
+  list-style: circle;
 }
 
 .header__links-list-item_no-bullit {
@@ -25,15 +25,14 @@
 
 .header__link_active .header__link {
   text-decoration: none;
- 
 }
 
 .header__logo {
   display: block;
+  grid-area: image;
   justify-self: center;
   width: 148px;
   height: 105px;
-  grid-area: image;
 }
 
 .header__logo-image {
@@ -42,25 +41,23 @@
 }
 
 .address {
-  padding-top: 5px;
   grid-area: address;
   justify-self: end;
+  padding-top: 5px;
   padding-right: 25px;
-  font-style: normal;
   font-size: 18px;
-line-height: 24.3px; /* 135% */
+  font-style: normal;
+  line-height: 24.3px; /* 135% */
 }
 
-.main 
-
-.cover {
+.main .cover {
   position: relative;
-  width: 100%;;
+  width: 100%;
   min-height: 757px;
   background-image: url(../images/cover.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
   background-position: center;
+  background-size: cover;
 }
 
 .overlay {
@@ -75,16 +72,16 @@ line-height: 24.3px; /* 135% */
   position: relative;
   z-index: 2;
   padding-top: 165px;
-  padding-left: 50px;
   padding-right: 50px;
+  padding-left: 50px;
   color: #fff;
   font-family: Raleway, sans-serif;
   font-weight: bold;
   font-size: 100px;
   font-style: normal;
   line-height: 115%; /* 115px */
-  text-transform: uppercase;
   letter-spacing: 30px;
+  text-transform: uppercase;
 }
 
 .aligned-text {
@@ -93,15 +90,15 @@ line-height: 24.3px; /* 135% */
 
 .aligned-text_center {
   display: block;
+  padding-top: 13px;
+  padding-right: 27px;
   text-align: center;
-  padding-right: 20px;
-  padding-top: 5px;
 }
-
 
 .aligned-text_right {
   display: block;
   text-align: right;
+  padding-top: 5px;
 }
 
 .letter-spacing-extended {
