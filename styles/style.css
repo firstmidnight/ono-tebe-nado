@@ -1,1 +1,106 @@
-/* место для вашего кода */
+.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "links-list image address";
+  padding-top: 92px;
+  padding-right: 24px;
+  padding-left: 24px;
+  margin-bottom: 96px;
+}
+
+
+.header__links-list {
+  display: flex;
+  grid-area: links-list;
+  justify-content: space-around;
+  gap: 32px;
+  list-style: circle;
+}
+
+.header__links-list-item_no-bullit {
+  list-style: none;
+}
+
+.header__link_active .header__link {
+  text-decoration: none;
+}
+
+.header__logo {
+  display: block;
+  width: 148px;
+  height: 105px;
+  justify-self: center;
+  
+}
+
+.header__logo-image {
+  width: 100%;
+  grid-area: image;
+ 
+}
+
+.address {
+  grid-area: address;
+  justify-self: end;
+  padding-right: 24px;
+  font-style: normal;
+}
+
+.main 
+
+
+.cover {
+  background-image: url(../images/cover.jpg);
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: 100%;
+  max-width: 1440px;
+  height: 100%;
+  min-height: 757px;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0, 0.6);
+  position:absolute;
+  z-index: 1;
+}
+
+.cover__title {
+color: #fff; 
+font-family: Raleway;
+font-size: 100px;
+font-style: normal;
+font-weight: 700;
+line-height: 115%; /* 115px */
+z-index: 2;
+text-transform: uppercase;
+position: relative;
+padding-top: 165px;
+padding-left: 50px;
+
+}
+
+.aligned-text {
+  display: block;
+}
+
+.aligned-text_center {
+  display: block;
+  text-align: center;
+}
+
+.aligned-text_right {
+  display: block;
+  text-align: right;
+}
+
+.letter-spacing-extended {
+  letter-spacing: 60px;
+}
+
+.no-letter-spacing {
+  letter-spacing: 0;
+}
