@@ -129,7 +129,7 @@
   font-style: normal;
   line-height: 28px; /* 127.273% */
   text-transform: uppercase;
-  word-spacing: 20px;
+  word-spacing: 18px;
 }
 
 .bet-button {
@@ -176,38 +176,38 @@
 .card__title {
   position: relative;
   z-index: 1;
+  padding-top: 48px;
+  padding-right: 40px;
+  padding-left: 40px;
   color: #fff;
   font-weight: 700;
   font-size: 22px;
   font-style: normal;
   line-height: 120%; /* 26.4px */
   text-decoration-line: underline;
-  text-transform: uppercase;
-  padding-right: 40px;
-  padding-left: 40px;
-  padding-top: 48px;
   text-underline-offset: 4px;
+  text-transform: uppercase;
 }
 
 .card__text {
   position: relative;
   z-index: 1;
+  padding-right: 40px;
+  padding-bottom: 48px;
+  padding-left: 40px;
   color: #fff;
   font-weight: 400;
   font-size: 20px;
   font-style: normal;
   line-height: 120%; /* 24px */
-  padding-right: 40px;
-  padding-left: 40px;
-  padding-bottom: 48px;
 }
 
 .card {
+  position: relative;
+  z-index: 1;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  position: relative;
-  z-index: 1;
   height: 100%;
   max-height: 563px;
   margin-bottom: 30px;
@@ -232,32 +232,33 @@
 }
 
 .lots__look-more-link {
+  margin-left: 64px;
   color: #000;
+  font-weight: 400;
   font-size: 20px;
   font-style: normal;
-  font-weight: 400;
   line-height: normal;
-  margin-left: 64px;
   text-underline-offset: 4px;
 }
 
 .about {
   display: grid;
   grid-template-columns: 334px 1fr;
+  gap: 25px;
   margin-top: 146px;
-  gap: 50px;
+  margin-left: 25px;
 }
 
 .about__logo {
   display: flex;
-  align-items: center;
-  justify-content: center;
   justify-self: center;
+  justify-content: center;
+  align-items: center;
   width: 240px;
   height: 240px;
-  background-color: #000;
-  border-radius: 50%;
   margin-top: 35px;
+  border-radius: 50%;
+  background-color: #000;
 }
 
 .about__logo-image {
@@ -267,25 +268,26 @@
 
 .about__column {
   display: flex;
-  gap: 25px;
   flex-direction: column;
+  gap: 25px;
 }
 
 .about__title {
-  color: #000;
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  text-transform: uppercase;
   padding-top: 133px;
   padding-bottom: 80px;
+  color: #000;
+  font-weight: 700;
+  font-size: 40px;
+  font-style: normal;
+  line-height: normal;
+  text-transform: uppercase;
 }
 
 .about__text {
-color: #000;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: 24px;
+  padding-right: 24px;
+  color: #000;
+  font-weight: 400;
+  font-size: 20px;
+  font-style: normal;
+  line-height: 120%;
 }
