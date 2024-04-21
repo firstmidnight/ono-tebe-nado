@@ -184,6 +184,9 @@
   line-height: 120%; /* 26.4px */
   text-decoration-line: underline;
   text-transform: uppercase;
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-top: 48px;
 }
 
 .card__text {
@@ -194,13 +197,19 @@
   font-size: 20px;
   font-style: normal;
   line-height: 120%; /* 24px */
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-bottom: 48px;
 }
 
 .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   position: relative;
   z-index: 1;
-  max-width: 334px;
-  min-height: 563px;
+  height: 100%;
+  max-height: 563px;
 }
 
 .card_type_film {
