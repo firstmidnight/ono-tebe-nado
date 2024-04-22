@@ -45,17 +45,17 @@
   font-size: 18px;
   font-style: normal;
   line-height: 135%;
+  text-underline-offset: 4px;
 }
+
 .header__address {
   grid-area: address;
   justify-self: end;
   padding-top: 5px;
   padding-right: 25px;
+
 }
 
-.header__address-item {
-  text-underline-offset: 4px;
-}
 
 .cover {
   position: relative;
@@ -314,6 +314,7 @@
   line-height: normal;
   text-align: center;
   list-style: none;
+  text-underline-offset: 4px;
 }
 
 .footer__menu-link_active {
